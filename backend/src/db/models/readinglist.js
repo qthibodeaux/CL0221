@@ -17,8 +17,8 @@ module.exports = (sequelize, DataTypes) => {
     }
   };
   ReadingList.init({
-    userId: DataTypes.INTEGER,
-    storyId: DataTypes.INTEGER
+    userId: DataTypes.STRING,
+    storyId: DataTypes.STRING
   }, {
     sequelize,
     modelName: 'ReadingList',

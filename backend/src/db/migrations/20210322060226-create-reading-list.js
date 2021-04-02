@@ -8,10 +8,10 @@ module.exports = {
         type: Sequelize.UUID
       },
       userId: {
-        type: Sequelize.INTEGER
+        type: Sequelize.STRING
       },
       storyId: {
-        type: Sequelize.INTEGER
+        type: Sequelize.STRING
       },
       createdAt: {
         allowNull: false,

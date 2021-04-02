@@ -15,9 +15,9 @@ module.exports = (sequelize, DataTypes) => {
     }
   };
   Story.init({
-    title: DataTypes.STRING,
-    body: DataTypes.STRING,
-    image: DataTypes.STRING
+    title: DataTypes.TEXT,
+    body: DataTypes.TEXT,
+    image: DataTypes.TEXT
   }, {
     sequelize,
     modelName: 'Story',
