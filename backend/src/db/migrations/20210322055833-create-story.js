@@ -8,13 +8,13 @@ module.exports = {
         type: Sequelize.UUID
       },
       title: {
-        type: Sequelize.STRING
+        type: Sequelize.TEXT
       },
       body: {
-        type: Sequelize.STRING
+        type: Sequelize.TEXT
       },
       image: {
-        type: Sequelize.STRING
+        type: Sequelize.TEXT
       },
       createdAt: {
         allowNull: false,
